@@ -218,7 +218,14 @@ export default function Home() {
           <SocialLinks />
         </div>
         <p className="border-t border-white/10 py-5 text-center text-sm text-white/50">
-          © {new Date().getFullYear()} Helios Instruments. A demo website created for a case study.
+          © {new Date().getFullYear()} Helios Instruments. A demo website created for a{" "}
+          <a
+            href="https://case.helios-instruments.com"
+            className="text-white/80 underline decoration-gold-500 underline-offset-2 transition-colors hover:text-gold-300"
+          >
+            case study
+          </a>
+          .
         </p>
       </footer>
     </>

@@ -35,7 +35,16 @@ export default function DemoBanner() {
       className="relative border-b border-gold-500/30 bg-gradient-to-r from-navy-950 via-navy-800 to-navy-950 text-sm text-white"
     >
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-4 gap-y-1 py-1.5 pl-4 pr-12">
-        <p className="py-1 text-center text-white/90">This is a demo website created for a case study.</p>
+        <p className="py-1 text-center text-white/90">
+          This is a demo website created for a{" "}
+          <a
+            href="https://case.helios-instruments.com"
+            className="font-medium text-gold-300 underline decoration-gold-400/80 underline-offset-2 transition-colors hover:text-gold-200"
+          >
+            case study
+          </a>
+          .
+        </p>
         <SocialLinks size={16} />
       </div>
       <button
